@@ -1,0 +1,62 @@
+!!!
+%html
+  %head
+    %link(rel="stylesheet" href="main.css")
+    %script
+      MathJax = {tex: { tags: 'ams'  /* should be 'ams', 'none', or 'all' */ } };
+
+
+    %script{ id:"MathJax-script", src:"./es5/tex-chtml-full.js" }
+  %body
+    %h1 算数の問題
+    %h2 問1
+    %p
+      .exp A(□)
+      は
+      .exp □×2+1
+      を意味します。
+      %br
+      .exp B(□)
+      は
+      .exp □を10で割った余り
+      を意味します。
+    %p
+      例えば。
+      %br
+      .exp A(1+2+3)
+      は、
+      .exp A(6)
+      なので、
+      .exp 6×2+1
+      となり、
+      .exp A(1+2+3) = 13
+      です。
+      %br
+      .exp B(1234)
+      は、
+      .exp 1234を10で割った余り
+      なので、
+      .exp B(1234) = 4
+      です。
+      %br
+      .exp A(B(13))
+      は、
+      .exp B(13) = 3 なので、
+      なので、
+      .exp A(B(13)) = A(3)
+      となり、
+      .exp A(B(13)) = A(3) = 3×2+1 = 7
+      つまり、
+      .exp A(B(13)) = 7
+      です。
+    %h3 (1)
+    %p
+      .exp A(B(76))
+      は、いくつですか？
+    %h3 (2)
+    %p
+      .exp A(B(A(B(A(B(A(B(A(B(A(B(A(B(A(B(A(B(A(B(A(B(A(B(A(B(A(B(A(B(A(B(A(B(A(B(A(B(A(B(1))))))))))))))))))))))))))))))))))))))))
+      は、いくつですか？
+      %br
+      ※ (2) の式には、A と B が順に 20個ずつ書かれています。
+
