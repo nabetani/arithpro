@@ -1,6 +1,7 @@
 !!!
 %html
   %head
+    %meta{ charset:"utf-8" }
     %link(rel="stylesheet" href="main.css")
     %script
       MathJax = {tex: { tags: 'ams'  /* should be 'ams', 'none', or 'all' */ } };
@@ -108,13 +109,40 @@
       %span.exp 30
       (0が書かれているカードはない)、
       %span.exp 73
-      (7の裏は3なので、7を使う3は使えない)、
+      (7の裏は3なので、7を使うと3は使えない)、
       などは作れません。
     %h3 (1)
     %p
       このカードから2枚選んでならべて、2桁の数を作ります。作ることができる9の倍数をすべて書いてください。
     %h3 (2)
     %p
-      このカードから3枚選んでならべて、3桁の数を作ります。作ることができる11の倍数を、大きい方から5個書いてください。
-
+      このカードから3枚選んでならべて、3桁の数を作ります。作ることができる11の倍数を、大きい方から2個書いてください。
+    %hr{ noshade:true }
+    %h2 問4
+    - [ [ 4, [2,4,1,3], [1,4,2,3], 2, 3 ], [ 5, [1, 3, 5, 2, 4] ] ].each.with_index(1) do |set,ix|
+      - num, ok, ng, ng0, ng1 = set
+      %h3 (#{ix})
+      %p
+        -(1..num).each do |n|
+          %span.card=n
+        の#{num}枚のカードがあります。
+        %br
+        隣のカードとの差が1にならないように並べる並べ方は何通りありますか？
+        %br
+        -if ok && ng
+          たとえば、
+          -ok.each do |n|
+            %span.card=n
+          は、どこも隣との差が 1 ではないので OK です。
+          %br
+          -ng.each do |n|
+            %span.card=n
+          は、
+          %span.card=ng0
+          と
+          %span.card=ng1
+          の差が 1 なので NG です。
+    %hr{ noshade:true }
+    %h2 問5
+    %p
 
