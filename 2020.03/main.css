@@ -6,6 +6,15 @@
   padding: 1mm 1mm 1mm 1mm;
 }
 
+h3{
+  padding-bottom: 0mm;
+  margin-bottom: 0mm;
+}
+
+p{
+  margin-top: 0mm;
+}
+
 .card{
   display: inline;
   font-weight: bolder;
