@@ -11,13 +11,32 @@
 }
 
 p {
-  line-height: 160%;
-  font-size  : 14pt;
-  margin-top : 0mm;
+  line-height  : 150%;
+  font-size    : 14pt;
+  margin-top   : 3mm;
+  margin-bottom: 3mm;
 }
 
 li {
-  font-size: 14pt;
+  font-size: 13pt;
+}
+
+table {
+  margin-left    : 10mm;
+  margin-left    : 10mm;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding-left : 4mm;
+  padding-right: 4mm;
+  border-width : 1px 0px;
+  border-style : solid;
+}
+
+td {
+  text-align: center;
 }
 
 span.h3 {
