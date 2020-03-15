@@ -1,0 +1,26 @@
+.exp {
+  display         : inline;
+  font-weight     : bolder;
+  background-color: #eee;
+  border-radius   : 1mm;
+  padding         : 1mm 1mm 1mm 1mm;
+}
+
+h3 {
+  padding-bottom: 0mm;
+  margin-bottom : 0mm;
+}
+
+.q {
+  break-inside: avoid;
+}
+
+p {
+  line-height: 160%;
+  font-size  : 14pt;
+  margin-top : 0mm;
+}
+
+li {
+  font-size: 14pt;
+}
