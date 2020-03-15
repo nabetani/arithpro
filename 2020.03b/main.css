@@ -1,0 +1,50 @@
+.exp {
+  display         : inline;
+  font-weight     : bolder;
+  background-color: #eee;
+  border-radius   : 1mm;
+  padding         : 1mm 1mm 1mm 1mm;
+}
+
+.q {
+  break-inside: avoid;
+}
+
+p {
+  line-height  : 150%;
+  font-size    : 14pt;
+  margin-top   : 3mm;
+  margin-bottom: 3mm;
+}
+
+li {
+  font-size: 13pt;
+}
+
+table {
+  margin-left    : 10mm;
+  margin-left    : 10mm;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding-left : 4mm;
+  padding-right: 4mm;
+  border-width : 1px 0px;
+  border-style : solid;
+}
+
+td {
+  text-align: center;
+}
+
+span.h3 {
+  font-size  : 16pt;
+  font-weight: bold;
+}
+
+span.h4 {
+  font-size  : 15pt;
+  font-weight: bold;
+}
