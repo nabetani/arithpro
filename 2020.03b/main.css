@@ -6,11 +6,6 @@
   padding         : 1mm 1mm 1mm 1mm;
 }
 
-h3 {
-  padding-bottom: 0mm;
-  margin-bottom : 0mm;
-}
-
 .q {
   break-inside: avoid;
 }
@@ -23,4 +18,14 @@ p {
 
 li {
   font-size: 14pt;
+}
+
+span.h3 {
+  font-size  : 16pt;
+  font-weight: bold;
+}
+
+span.h4 {
+  font-size  : 15pt;
+  font-weight: bold;
 }
